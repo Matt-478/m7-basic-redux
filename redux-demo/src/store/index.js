@@ -11,3 +11,5 @@ const configureStore = createStore(
   // the third argument activates middleware, plugins or extensions etc
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
+
+export default configureStore
